@@ -1,0 +1,14 @@
+auth:
+  clientId: xyz-123
+  jwtDuration: 1 # Minutes
+  server:
+    url: http://localhost:8080/get-jwt
+
+external:
+  clientId: xyz-123
+  api:
+    url: http://localhost:8080/api
+
+logging:
+  level:
+    reactor.netty.http.client: INFO
