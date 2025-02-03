@@ -1,3 +1,4 @@
+/*
 package com.ipap.webclientwithcacheabletoken.config;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
@@ -18,3 +19,4 @@ public class CacheConfig {
         return Caffeine.newBuilder().expireAfterWrite(jwtDuration, TimeUnit.MINUTES);
     }
 }
+*/
